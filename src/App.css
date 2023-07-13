@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+.card figure img {
+  object-fit: cover;
+
+  height: 100%;
+  width: 100%;
+}
+@media(min-width:1024px){
+  .card figure > img{
+    max-width:250px;
+    
+  }
+}
